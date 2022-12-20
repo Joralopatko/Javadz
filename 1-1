@@ -1,0 +1,11 @@
+public class Main {
+     z =( ( a - 3 ) * b / 2 ) + c
+    static int func(int a, int b, int c) {
+    int z = ( ( a - 3 ) * b / 2 ) + c;
+        System.out.println(z);
+    return z;
+    }
+public static void main(String[] args) {
+func(11,22,33);
+    }
+}
