@@ -1,2 +1,2 @@
-# Javadz
-Dz po java dlia Яна
+# Homework for Yan
+ java homework for  Yan
