@@ -1,8 +1,16 @@
+import java.util.Scanner;
 public class Triangle_01 {
-        public static void main(String[] args) {
-	        int angleA = 45;
-        int angleB = 60;
+    public static void main(String[] args) {
+        int angleA;
+        int angleB;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Введите angleA ");
+        angleA = scan.nextInt();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Введите angleB ");
+        angleB = scan.nextInt();
         int angleC = 180 - angleA - angleB;
+
         if (angleC > 0) {
             System.out.print("Треугольник с заданными углами существует. ");
             if (angleA == 90 || angleB == 90 || angleC == 90) {
