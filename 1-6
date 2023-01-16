@@ -1,8 +1,14 @@
+import java.util.Scanner;
 public class CoordinatesXY_06 {
 
     public static void main(String[] args) {
-        int coordX = -2;
-        int coordY = 4;
+        int coordX;
+        int coordY;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Введите переменную coordX");
+        coordX = scan.nextInt();
+        System.out.println("Введите переменную coordY");
+        coordY = scan.nextInt();
         System.out.println("точка с коррдинатами x = " + coordX + " и y = " + coordY + " - " + coordinates(coordX, coordY));
     }
 
