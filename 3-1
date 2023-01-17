@@ -1,13 +1,12 @@
-import java.io.*;
 public class SumNumbers_01 {
-    public static void main(String[] args) throws Exception {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("Введите любое целое положительно число n = ");
-        int num = Integer.parseInt(reader.readLine());
+    public static void main(String[] args) {
         int sum = 0;
-        for (int i = 1; i <= num; i++) {
-            sum += i;
+        for (int i = 3; i >= 0; i--) {
+
+            sum = sum + i;
+
         }
-        System.out.println("Сумма всех чисел от 1 до n = " + num + " равна " + sum);
+        System.out.println("Введите пееменнуюр sum" + sum);
+
     }
 }
